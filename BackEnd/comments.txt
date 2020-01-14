@@ -1,0 +1,9 @@
+// Métodos HTTP: GET, POST, PUT, DELETE
+
+//Tipos de parâmetros:
+
+//Query Params: req.query (filtros, ordenação, paginação...)
+//Route Params: req.params (Identificar um recurso em alteração ou delete)
+//Body: req.body (dados para criação ou alteração)
+
+//MongoDB (Não Relacional)
