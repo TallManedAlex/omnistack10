@@ -1,12 +1,10 @@
 const Dev = require('../models/Devs.js')
-const StringToArray = require ('./Utils/StringToArray')
+const StringToArray = require ('../Utils/StringToArray')
 
 
 module.exports = {
     async index (req, res){
-        console.log(await req.query)
-
-        const { latitude, longitude, techs } = req.query;
+        const { latitude, longitude, techs } = await req.query;
 
         const TechsArray = StringToArray (techs);
 
